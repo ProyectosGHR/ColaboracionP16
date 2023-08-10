@@ -9,11 +9,15 @@ public partial class SueldoSemanal : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        double horasTrabajadas = Convert.ToDouble(HT.Text);
-        double pagoXHora = Convert.ToDouble(PxH.Text);
+        try
+        {
+            double horasTrabajadas = Convert.ToDouble(HT.Text);
+            double pagoXHora = Convert.ToDouble(PxH.Text);
 
-        double totalSueldo = horasTrabajadas * pagoXHora;
+            double totalSueldo = horasTrabajadas * pagoXHora;
 
-        sueldo.Text = "Sueldo a pagar: $" + totalSueldo;
+            sueldo.Text = "Sueldo a pagar: $" + totalSueldo;
+        } catch (Exception ex) { DisplayAlert("Error", ex.Message, "Aceptar"); }
+       
     }
 }
