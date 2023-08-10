@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColaboracionP16.SueldoSemanal"
+             Title="SueldoSemanal">
+    <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+        <Label Text="SUELDO SEMANAL" 
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="MediumPurple"/>
+        <Image Source="pagox.png" 
+               HeightRequest="200"
+               WidthRequest="300"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Digite horas trabajadas"
+               FontSize="15"/>
+        <Entry x:Name="HT" Placeholder="Horas"
+               Keyboard="Numeric"/>
+
+        <Label Text="Digite pago por horas trabajadas"
+                   FontSize="15"/>
+        <Entry x:Name="PxH" Placeholder="Pago"
+                   Keyboard="Numeric"/>
+
+        <Label Text="Sueldo a pagar: "
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="MediumPurple"
+               FontSize="18"
+               x:Name="sueldo"/>
+
+        <Button Text="Calcular Sueldo"
+                BackgroundColor="White"
+                BorderColor="MediumPurple"
+                BorderWidth="3"
+                CornerRadius="30"
+                Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
