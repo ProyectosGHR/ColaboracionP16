@@ -49,6 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Langosta ahumada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="SueldoSemanal.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

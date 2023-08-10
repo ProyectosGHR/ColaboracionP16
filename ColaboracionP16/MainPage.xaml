@@ -17,6 +17,15 @@
                     CornerRadius="30"
                     Clicked="pagoxHora_Clicked"/>
 
+            <Button x:Name="langAhu"
+                    Margin="0,30,0,0"
+                    Text="App Langosta Ahumada"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="langAhu_Clicked"/>
+
 
         </VerticalStackLayout>
     </ScrollView>

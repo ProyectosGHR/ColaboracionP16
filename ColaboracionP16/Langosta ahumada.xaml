@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColaboracionP16.Langosta_ahumada"
+             Title="Langosta_ahumada">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image>
+
+            </Image>
+            <Label Text="INGRESE NUMERO DE PERSONAS"
+                   FontSize="Body"
+                   >
+
+            </Label>
+            <Entry Keyboard="Numeric"
+                   x:Name="cantEn"
+                   Placeholder="CANTIDAD DE PERSONAS"
+                   BackgroundColor="White"
+                   FontSize="Body"
+                   TextColor="White">
+
+            </Entry>
+            <Label Text="TOTAL: "
+                   x:Name="cantTotal"
+                   FontSize="30">
+
+            </Label>
+            <Button Text="CALCULAR"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    HeightRequest="70"
+                    x:Name="calBtn"
+                    Clicked="calBtn_Clicked">
+
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

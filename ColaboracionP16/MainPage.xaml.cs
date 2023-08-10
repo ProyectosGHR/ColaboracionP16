@@ -12,5 +12,10 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new SueldoSemanal());
     }
+
+    private void langAhu_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Langosta_ahumada());
+    }
 }
 
