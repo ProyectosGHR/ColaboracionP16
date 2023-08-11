@@ -27,5 +27,11 @@ public partial class MainPage : ContentPage
 	{
 		Navigation.PushAsync(new CuentaRegresiva_10_al_1());
 	}
+
+    private void TablaMulti_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new TablaMultiplicar());
+    }
 }
+
 

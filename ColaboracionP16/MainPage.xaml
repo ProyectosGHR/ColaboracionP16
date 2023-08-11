@@ -44,9 +44,13 @@
                     CornerRadius="30"
                     Clicked="CuentaRegresiva_Clicked"/>
 
-
-
-
+            <Button x:Name="TablaMulti"
+                    Text="Tabla Multiplicar"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="TablaMulti_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>
