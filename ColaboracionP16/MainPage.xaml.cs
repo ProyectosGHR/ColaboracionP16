@@ -17,5 +17,15 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new Langosta_ahumada());
     }
+
+	private void NumerosPares0a100_Clicked(object sender, EventArgs e)
+	{
+		Navigation.PushAsync(new Numeros_pares_0_al_100());
+	}
+
+	private void CuentaRegresiva_Clicked(object sender, EventArgs e)
+	{
+		Navigation.PushAsync(new CuentaRegresiva_10_al_1());
+	}
 }
 

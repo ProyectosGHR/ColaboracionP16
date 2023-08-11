@@ -49,7 +49,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CuentaRegresiva 10 al 1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Langosta ahumada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Numeros pares 0 al 100.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SueldoSemanal.xaml">

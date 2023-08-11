@@ -26,6 +26,27 @@
                     CornerRadius="30"
                     Clicked="langAhu_Clicked"/>
 
+            <Button x:Name="NumerosPares0a100"
+                    Margin="0,30,0,0"
+                    Text="App Numeros Pares"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="NumerosPares0a100_Clicked"/>
+
+            <Button x:Name="CuentaRegresiva"
+                    Margin="0,30,0,0"
+                    Text="App Cuenta regresiva del 1 al 10"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="CuentaRegresiva_Clicked"/>
+
+
+
+
 
         </VerticalStackLayout>
     </ScrollView>

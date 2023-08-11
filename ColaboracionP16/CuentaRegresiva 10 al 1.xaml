@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColaboracionP16.CuentaRegresiva_10_al_1"
+             Title="CuentaRegresiva_10_al_1">
+    <VerticalStackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label x:Name="CountdownLabel" FontSize="24" />
+            <Button Text="Iniciar Cuenta Regresiva" Clicked="OnStartCountdown" />
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
+    
+    
