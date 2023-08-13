@@ -49,6 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="ConvertirDolares.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="CuentaRegresiva 10 al 1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

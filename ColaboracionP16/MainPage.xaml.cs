@@ -32,6 +32,11 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new TablaMultiplicar());
     }
+
+    private void ConvertirDo_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ConvertirDolares());
+    }
 }
 
 

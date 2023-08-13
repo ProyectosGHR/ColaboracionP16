@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColaboracionP16.ConvertirDolares"
+             Title="ConvertirDolares">
+    <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+
+        <Image Source="dolares.png" />
+        
+        <Label Text="Cantidad en Pesos:" />
+        <Entry x:Name="txtCantidad" Keyboard="Numeric" />
+
+        <Label Text="Cantidad en Dólares:" />
+        <Label x:Name="lblCantidadDolares" />
+
+        <Button Text="Convertir" Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
